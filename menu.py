@@ -21,6 +21,15 @@ def ask_player_play_again():
     return True
 
 
+def show_winner(winner):
+    if winner is None:
+        print("There was a Draw!")
+    elif winner.name is None:
+        print("You lost :(")
+    else:
+        print("You won! Congrats")
+    print()
+
 
 #
 # class Menu:
