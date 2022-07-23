@@ -1,8 +1,7 @@
-import unittest
 import unittest.mock
 from unittest import mock
 
-import blackjack
+from BlackJack import blackjack
 
 
 class BlackJackTest(unittest.TestCase):
