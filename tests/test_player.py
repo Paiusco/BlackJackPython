@@ -1,6 +1,6 @@
 import unittest
 
-from player import Player
+from BlackJack.player import Player
 
 
 class PlayerTest(unittest.TestCase):
